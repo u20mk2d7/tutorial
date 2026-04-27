@@ -12,7 +12,7 @@
 #include <string>
 
 // int network::Server::init_tcp() {
-int main() {
+int server() {
   const std::string port = "8080";  // const char* port
 
   struct addrinfo* servinfo;  // point to each hostname reach to null

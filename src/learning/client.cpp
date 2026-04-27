@@ -12,7 +12,7 @@
 
 // int network::Client::connect_to_server(const std::string &hostname,
 //                                       const std::string &port) {}
-int main() {
+int client() {
   struct addrinfo* servinfo;
   struct addrinfo hints = {0};
   memset(&hints, 0, sizeof(hints));
