@@ -10,8 +10,6 @@
 #include <string>
 #include <vector>
 
-// int network::Client::connect_to_server(const std::string &hostname,
-//                                       const std::string &port) {}
 int client() {
   struct addrinfo* servinfo;
   struct addrinfo hints = {0};

@@ -31,3 +31,12 @@ Introduction to select() / poll() for non-blocking I/O
 Moving to raw sockets
 
 Understanding network sniffing and packet crafting
+
+# The Core Concepts
+Socket: An endpoint for communication. Think of it like a physical telephone.
+
+IP Address: The machine's address on the network.
+
+Port: A specific "door" on that machine. A server listens on a specific port (e.g., port 8080) so the OS knows which program to hand the incoming network traffic to.
+
+TCP (Transmission Control Protocol): A reliable, connection-oriented protocol. This is what HTTP (and therefore Boost.Beast) relies on.
